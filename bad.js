@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const startDate = new Date();
 
-const file = fs.readFileSync("10m.txt", "utf-8");   //here you can write your file name
+const file = fs.readFileSync("10m.txt", "utf-8");   //here you can change 10m.txt on your file name
 
 const arr = file.split("\n").map((el) => +el);
 
